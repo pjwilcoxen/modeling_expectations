@@ -1,2 +1,5 @@
-# modeling_expectations
-Code and documentation related to "Modeling Expectations in General Equilibrium"
+# Modeling Expectations
+
+Code and documentation related to "Modeling Expectations in General Equilibrium".
+
+Currently under construction.
