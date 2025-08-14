@@ -1,0 +1,259 @@
+
+Endogenous price:
+False
+
+Input file:
+1-in/r01-baseline.xlsx
+
+Wrote:
+2-out-ex/r01-baseline.csv
+
+Year 10 capital:
+25.0
+
+
+Investment benchmark ITC and sub:
+{
+    "itc": 0.31499999999999995,
+    "sub": 0.1
+}
+
+Input file:
+1-in/r02-ptc-perm.xlsx
+
+Wrote:
+2-out-ex/r02-ptc-perm.csv
+
+Input file:
+1-in/r03-itc-perm.xlsx
+
+Wrote:
+2-out-ex/r03-itc-perm.csv
+
+Input file:
+1-in/r04-ptc-decay.xlsx
+
+Wrote:
+2-out-ex/r04-ptc-decay.csv
+
+Input file:
+1-in/r05-itc-decay.xlsx
+
+Wrote:
+2-out-ex/r05-itc-decay.csv
+
+Input file:
+1-in/r06-ptc-temp.xlsx
+
+Wrote:
+2-out-ex/r06-ptc-temp.csv
+
+Input file:
+1-in/r07-itc-temp.xlsx
+
+Wrote:
+2-out-ex/r07-itc-temp.csv
+
+Input file:
+1-in/r08-ptc-delayed.xlsx
+
+Wrote:
+2-out-ex/r08-ptc-delayed.csv
+
+Input file:
+1-in/r09-itc-delayed.xlsx
+
+Wrote:
+2-out-ex/r09-itc-delayed.csv
+
+Input file:
+1-in/r10-ptc-delayed-50.xlsx
+
+Wrote:
+2-out-ex/r10-ptc-delayed-50.csv
+
+Input file:
+1-in/r11-ptc-delayed-inert.xlsx
+
+Wrote:
+2-out-ex/r11-ptc-delayed-inert.csv
+
+Input file:
+1-in/r12-ptc-temp-50inert.xlsx
+
+Wrote:
+2-out-ex/r12-ptc-temp-50inert.csv
+
+Input file:
+1-in/r13-itc-temp-50inert.xlsx
+
+Wrote:
+2-out-ex/r13-itc-temp-50inert.csv
+
+Input file:
+1-in/r14-tech.xlsx
+
+Wrote:
+2-out-ex/r14-tech.csv
+
+Input file:
+1-in/r15-tech-50inert.xlsx
+
+Wrote:
+2-out-ex/r15-tech-50inert.csv
+
+Input file:
+1-in/r16-tech-roll.xlsx
+
+Wrote:
+2-out-ex/r16-tech-roll.csv
+
+Input file:
+1-in/r17-baseline-notss.xlsx
+
+Wrote:
+2-out-ex/r17-baseline-notss.csv
+
+Year 10 capital:
+19.7698233985
+
+
+Investment benchmark ITC and sub:
+{
+    "itc": 0.31499999999999995,
+    "sub": 0.1
+}
+
+Input file:
+1-in/r18-baseline-notss.xlsx
+
+Wrote:
+2-out-ex/r18-baseline-notss.csv
+
+Year 10 capital:
+19.7698233985
+
+
+Investment benchmark ITC and sub:
+{
+    "itc": 0.31499999999999995,
+    "sub": 0.1
+}
+
+Input file:
+1-in/r19-ptc-temp.xlsx
+
+Wrote:
+2-out-ex/r19-ptc-temp.csv
+
+Input file:
+1-in/r20-baseline-notss.xlsx
+
+Wrote:
+2-out-ex/r20-baseline-notss.csv
+
+Year 10 capital:
+19.7698233985
+
+
+Investment benchmark ITC and sub:
+{
+    "itc": 0.31499999999999995,
+    "sub": 0.1
+}
+
+Input file:
+1-in/r21-baseline-notss.xlsx
+
+Wrote:
+2-out-ex/r21-baseline-notss.csv
+
+Year 10 capital:
+19.7698233985
+
+
+Investment benchmark ITC and sub:
+{
+    "itc": 0.31499999999999995,
+    "sub": 0.1
+}
+
+Input file:
+1-in/r22-baseline-notss.xlsx
+
+Wrote:
+2-out-ex/r22-baseline-notss.csv
+
+Year 10 capital:
+19.7698233985
+
+
+Investment benchmark ITC and sub:
+{
+    "itc": 0.31499999999999995,
+    "sub": 0.1
+}
+
+Input file:
+1-in/r23-baseline-notss.xlsx
+
+Wrote:
+2-out-ex/r23-baseline-notss.csv
+
+Year 10 capital:
+19.7698233985
+
+
+Investment benchmark ITC and sub:
+{
+    "itc": 0.31499999999999995,
+    "sub": 0.1
+}
+
+Input file:
+1-in/r24-baseline-notss.xlsx
+
+Wrote:
+2-out-ex/r24-baseline-notss.csv
+
+Year 10 capital:
+19.7698233985
+
+
+Investment benchmark ITC and sub:
+{
+    "itc": 0.31499999999999995,
+    "sub": 0.1
+}
+
+Input file:
+1-in/r25-baseline-notss.xlsx
+
+Wrote:
+2-out-ex/r25-baseline-notss.csv
+
+Year 10 capital:
+19.7698233985
+
+
+Investment benchmark ITC and sub:
+{
+    "itc": 0.31499999999999995,
+    "sub": 0.1
+}
+
+Input file:
+1-in/r26-baseline-notss.xlsx
+
+Wrote:
+2-out-ex/r26-baseline-notss.csv
+
+Year 10 capital:
+19.7698233985
+
+
+Investment benchmark ITC and sub:
+{
+    "itc": 0.31499999999999995,
+    "sub": 0.1
+}

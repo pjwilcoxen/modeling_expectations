@@ -1,0 +1,400 @@
+
+Run legends:
+{
+    "r01-baseline": "A: SS Baseline",
+    "r02-ptc-perm": "omit",
+    "r03-itc-perm": "B: Permanent",
+    "r04-ptc-decay": "C: PTC, repeal risk",
+    "r05-itc-decay": "D: ITC, repeal risk",
+    "r06-ptc-temp": "E: PTC, temporary",
+    "r07-itc-temp": "F: ITC, temporary",
+    "r08-ptc-delayed": "G: PTC at 4, 100%",
+    "r10-ptc-delayed-50": "H: PTC at 4, 50%",
+    "r11-ptc-delayed-inert": "I: PTC at 4, 0%",
+    "r09-itc-delayed": "J: ITC at 4",
+    "r12-ptc-temp-50inert": "K: PTC, temporary, 50%",
+    "r13-itc-temp-50inert": "L: ITC, temporary, 50%",
+    "r14-tech": "M: Tech exp at 10, 100%",
+    "r15-tech-50inert": "N: Tech exp at 10, 50%",
+    "r16-tech-roll": "P: Tech surprise at 10",
+    "r17-baseline-notss": "Q: Non-SS Baseline",
+    "r18-baseline-notss": "R: Non-SS Baseline, IE",
+    "r19-ptc-temp": "S: PTC, temporary, IE",
+    "r20-baseline-notss": "T: Non-SS Baseline, IE5",
+    "r21-baseline-notss": "U: Non-SS Baseline, IE1",
+    "r22-baseline-notss": "V: Non-SS Baseline, IE2",
+    "r23-baseline-notss": "W: Non-SS Baseline, IE3",
+    "r24-baseline-notss": "X: Non-SS Baseline, IE4",
+    "r25-baseline-notss": "Y: Non-SS Baseline, IE5",
+    "r26-baseline-notss": "Z: Non-SS Baseline, IE6"
+}
+
+Last year:
+20
+
+Show titles:
+0
+
+Roll:
+{
+    "r16": {
+        "base": "r01-baseline",
+        "year": 10
+    },
+    "r17": {
+        "base": "r01-baseline",
+        "year": 0,
+        "cap0": 10
+    },
+    "r18": {
+        "base": "r01-baseline",
+        "year": 0,
+        "cap0": 10
+    },
+    "r20": {
+        "base": "r18-baseline-notss",
+        "year": 5
+    },
+    "r21": {
+        "base": "r18-baseline-notss",
+        "year": 1
+    },
+    "r22": {
+        "base": "r21-baseline-notss",
+        "year": 2
+    },
+    "r23": {
+        "base": "r22-baseline-notss",
+        "year": 3
+    },
+    "r24": {
+        "base": "r23-baseline-notss",
+        "year": 4
+    },
+    "r25": {
+        "base": "r24-baseline-notss",
+        "year": 5
+    },
+    "r26": {
+        "base": "r25-baseline-notss",
+        "year": 6
+    }
+}
+
+Overlapping run files found:
+[
+    "r26-baseline-notss.csv",
+    "r12-ptc-temp-50inert.csv",
+    "r16-tech-roll.csv",
+    "r13-itc-temp-50inert.csv",
+    "r22-baseline-notss.csv",
+    "r04-ptc-decay.csv",
+    "r09-itc-delayed.csv",
+    "r07-itc-temp.csv",
+    "r20-baseline-notss.csv",
+    "r17-baseline-notss.csv",
+    "r06-ptc-temp.csv",
+    "r23-baseline-notss.csv",
+    "r21-baseline-notss.csv",
+    "r18-baseline-notss.csv",
+    "r24-baseline-notss.csv",
+    "r11-ptc-delayed-inert.csv",
+    "r03-itc-perm.csv",
+    "r15-tech-50inert.csv",
+    "r25-baseline-notss.csv",
+    "r10-ptc-delayed-50.csv",
+    "r05-itc-decay.csv",
+    "r19-ptc-temp.csv",
+    "r01-baseline.csv",
+    "r08-ptc-delayed.csv",
+    "r14-tech.csv",
+    "r02-ptc-perm.csv"
+]
+
+Figure:
+Immediate Permanent Policies with Repeal Risk
+
+Summary:
+                         lam          inv         cap       
+period                   0      100   0     100   0      100
+legend         Closure                                      
+A: SS Baseline P end    15.0  15.00  2.50  2.50  25.0  25.00
+               P ex     15.0  15.00  2.50  2.50  25.0  25.00
+B: Permanent   P end    13.9  13.03  3.52  3.09  25.0  30.89
+               P ex     15.0  15.00  4.07  4.07  25.0  40.75
+
+Wrote image:
+4-out-cmp/fig1-cmp-AB.png
+
+Wrote image:
+4-out-cmp/fig1-cmp-AB-P.png
+
+Figure:
+Immediate Permanent Policies with Repeal Risk
+
+Summary:
+                               lam          inv         cap       
+period                         0      100   0     100   0      100
+legend              Closure                                       
+A: SS Baseline      P end    15.00  15.00  2.50  2.50  25.0  25.00
+                    P ex     15.00  15.00  2.50  2.50  25.0  25.00
+C: PTC, repeal risk P end    16.04  15.00  3.02  2.50  25.0  25.02
+                    P ex     17.34  15.02  3.67  2.51  25.0  25.14
+
+Wrote image:
+4-out-cmp/fig1-cmp-AC.png
+
+Wrote image:
+4-out-cmp/fig1-cmp-AC-P.png
+
+Figure:
+Immediate Permanent Policies with Repeal Risk
+
+Summary:
+                               lam          inv         cap       
+period                         0      100   0     100   0      100
+legend              Closure                                       
+A: SS Baseline      P end    15.00  15.00  2.50  2.50  25.0  25.00
+                    P ex     15.00  15.00  2.50  2.50  25.0  25.00
+D: ITC, repeal risk P end    14.08  14.98  3.62  2.50  25.0  25.04
+                    P ex     15.00  15.00  4.07  2.51  25.0  25.19
+
+Wrote image:
+4-out-cmp/fig1-cmp-AD.png
+
+Wrote image:
+4-out-cmp/fig1-cmp-AD-P.png
+
+Figure:
+Delayed Permanent Policies with Varying Credibility
+
+Summary:
+                             lam          inv         cap       
+period                       0      100   0     100   0      100
+legend            Closure                                       
+A: SS Baseline    P end    15.00  15.00  2.50  2.50  25.0  25.00
+                  P ex     15.00  15.00  2.50  2.50  25.0  25.00
+G: PTC at 4, 100% P end    15.53  15.67  2.77  2.83  25.0  28.34
+                  P ex     16.80  18.15  3.40  4.08  25.0  40.75
+
+Wrote image:
+4-out-cmp/fig2-cmp-AG.png
+
+Wrote image:
+4-out-cmp/fig2-cmp-AG-P.png
+
+Figure:
+Delayed Permanent Policies with Varying Credibility
+
+Summary:
+                            lam          inv         cap       
+period                      0      100   0     100   0      100
+legend           Closure                                       
+A: SS Baseline   P end    15.00  15.00  2.50  2.50  25.0  25.00
+                 P ex     15.00  15.00  2.50  2.50  25.0  25.00
+H: PTC at 4, 50% P end    15.27  15.33  2.63  2.67  25.0  26.67
+                 P ex     15.88  16.54  2.94  3.27  25.0  32.69
+
+Wrote image:
+4-out-cmp/fig2-cmp-AH.png
+
+Wrote image:
+4-out-cmp/fig2-cmp-AH-P.png
+
+Figure:
+Delayed Permanent Policies with Varying Credibility
+
+Summary:
+                          lam        inv        cap      
+period                    0     100  0    100   0     100
+legend          Closure                                  
+A: SS Baseline  P end    15.0  15.0  2.5  2.5  25.0  25.0
+                P ex     15.0  15.0  2.5  2.5  25.0  25.0
+I: PTC at 4, 0% P end    15.0  15.0  2.5  2.5  25.0  25.0
+                P ex     15.0  15.0  2.5  2.5  25.0  25.0
+
+Wrote image:
+4-out-cmp/fig2-cmp-AI.png
+
+Wrote image:
+4-out-cmp/fig2-cmp-AI-P.png
+
+Figure:
+Delayed Permanent Policies with Varying Credibility
+
+Summary:
+                          lam          inv         cap       
+period                    0      100   0     100   0      100
+legend         Closure                                       
+A: SS Baseline P end    15.00  15.00  2.50  2.50  25.0  25.00
+               P ex     15.00  15.00  2.50  2.50  25.0  25.00
+J: ITC at 4    P end    14.53  13.03  2.26  3.09  25.0  30.89
+               P ex     15.00  15.00  2.50  4.07  25.0  40.75
+
+Wrote image:
+4-out-cmp/fig2-cmp-AJ.png
+
+Wrote image:
+4-out-cmp/fig2-cmp-AJ-P.png
+
+Figure:
+Temporary Policies with Continuation Risk
+
+Summary:
+                             lam         inv        cap      
+period                       0     100   0    100   0     100
+legend            Closure                                    
+A: SS Baseline    P end    15.00  15.0  2.50  2.5  25.0  25.0
+                  P ex     15.00  15.0  2.50  2.5  25.0  25.0
+E: PTC, temporary P end    15.73  15.0  2.86  2.5  25.0  25.0
+                  P ex     16.35  15.0  3.17  2.5  25.0  25.0
+
+Wrote image:
+4-out-cmp/fig3-cmp-AE.png
+
+Wrote image:
+4-out-cmp/fig3-cmp-AE-P.png
+
+Figure:
+Temporary Policies with Continuation Risk
+
+Summary:
+                             lam         inv        cap      
+period                       0     100   0    100   0     100
+legend            Closure                                    
+A: SS Baseline    P end    15.00  15.0  2.50  2.5  25.0  25.0
+                  P ex     15.00  15.0  2.50  2.5  25.0  25.0
+F: ITC, temporary P end    14.37  15.0  3.76  2.5  25.0  25.0
+                  P ex     15.00  15.0  4.07  2.5  25.0  25.0
+
+Wrote image:
+4-out-cmp/fig3-cmp-AF.png
+
+Wrote image:
+4-out-cmp/fig3-cmp-AF-P.png
+
+Figure:
+Temporary Policies with Continuation Risk
+
+Summary:
+                                  lam          inv         cap       
+period                            0      100   0     100   0      100
+legend                 Closure                                       
+A: SS Baseline         P end    15.00  15.00  2.50  2.50  25.0  25.00
+                       P ex     15.00  15.00  2.50  2.50  25.0  25.00
+K: PTC, temporary, 50% P end    15.99  15.33  3.00  2.67  25.0  26.67
+                       P ex     17.23  16.54  3.61  3.27  25.0  32.69
+
+Wrote image:
+4-out-cmp/fig3-cmp-AK.png
+
+Wrote image:
+4-out-cmp/fig3-cmp-AK-P.png
+
+Figure:
+Temporary Policies with Continuation Risk
+
+Summary:
+                                  lam          inv         cap       
+period                            0      100   0     100   0      100
+legend                 Closure                                       
+A: SS Baseline         P end    15.00  15.00  2.50  2.50  25.0  25.00
+                       P ex     15.00  15.00  2.50  2.50  25.0  25.00
+L: ITC, temporary, 50% P end    14.13  13.98  3.64  2.78  25.0  27.78
+                       P ex     15.00  15.00  4.07  3.29  25.0  32.87
+
+Wrote image:
+4-out-cmp/fig3-cmp-AL.png
+
+Wrote image:
+4-out-cmp/fig3-cmp-AL-P.png
+
+Figure:
+Delayed Technology Decline
+
+Summary:
+                                   lam          inv         cap       
+period                             0      100   0     100   0      100
+legend                  Closure                                       
+A: SS Baseline          P end    15.00  15.00  2.50  2.50  25.0  25.00
+                        P ex     15.00  15.00  2.50  2.50  25.0  25.00
+M: Tech exp at 10, 100% P end    14.92  14.66  2.46  2.33  25.0  23.29
+                        P ex     14.30  12.15  2.15  1.08  25.0  10.75
+
+Wrote image:
+4-out-cmp/fig4-cmp-AM.png
+
+Wrote image:
+4-out-cmp/fig4-cmp-AM-P.png
+
+Figure:
+Delayed Technology Decline
+
+Summary:
+                                  lam          inv         cap       
+period                            0      100   0     100   0      100
+legend                 Closure                                       
+A: SS Baseline         P end    15.00  15.00  2.50  2.50  25.0  25.00
+                       P ex     15.00  15.00  2.50  2.50  25.0  25.00
+N: Tech exp at 10, 50% P end    14.96  14.83  2.48  2.42  25.0  24.16
+                       P ex     14.64  13.54  2.32  1.77  25.0  17.69
+
+Wrote image:
+4-out-cmp/fig4-cmp-AN.png
+
+Wrote image:
+4-out-cmp/fig4-cmp-AN-P.png
+
+Figure:
+Delayed Technology Decline
+
+Summary:
+                                 lam         inv         cap       
+period                           0      100  0     100   0      100
+legend                 Closure                                     
+A: SS Baseline         P end    15.0  15.00  2.5  2.50  25.0  25.00
+                       P ex     15.0  15.00  2.5  2.50  25.0  25.00
+P: Tech surprise at 10 P end    15.0  14.66  2.5  2.33  25.0  23.29
+                       P ex     15.0  12.15  2.5  1.07  25.0  10.75
+
+Wrote image:
+4-out-cmp/fig4-cmp-AP.png
+
+Wrote image:
+4-out-cmp/fig4-cmp-AP-P.png
+
+Figure:
+Alternative Baselines
+
+Summary:
+                             lam        inv        cap      
+period                       0     100  0    100   0     100
+legend             Closure                                  
+A: SS Baseline     P end    15.0  15.0  2.5  2.5  25.0  25.0
+                   P ex     15.0  15.0  2.5  2.5  25.0  25.0
+Q: Non-SS Baseline P end    19.0  15.0  4.5  2.5  10.0  25.0
+                   P ex     15.0  15.0  2.5  2.5  10.0  25.0
+
+Wrote image:
+4-out-cmp/fig5-cmp-AQ.png
+
+Wrote image:
+4-out-cmp/fig5-cmp-AQ-P.png
+
+Figure:
+Alternative Baselines
+
+Summary:
+                                  lam          inv         cap       
+period                            0      100   0     100   0      100
+legend                 Closure                                       
+Q: Non-SS Baseline     P end    19.00  15.00  4.50  2.50  10.0  25.00
+                       P ex     15.00  15.00  2.50  2.50  10.0  25.00
+R: Non-SS Baseline, IE P end    27.63  27.63  8.82  8.82  10.0  88.15
+                       P ex     15.00  15.00  2.50  2.50  10.0  25.00
+
+Wrote image:
+4-out-cmp/fig6-cmp-AR.png
+
+Wrote image:
+4-out-cmp/fig6-cmp-AR-P.png

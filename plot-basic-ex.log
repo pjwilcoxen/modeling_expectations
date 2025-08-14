@@ -1,0 +1,183 @@
+
+Endogenous price:
+False
+
+Run legends:
+{
+    "r01-baseline": "A: SS Baseline",
+    "r02-ptc-perm": "omit",
+    "r03-itc-perm": "B: Permanent",
+    "r04-ptc-decay": "C: PTC, repeal risk",
+    "r05-itc-decay": "D: ITC, repeal risk",
+    "r06-ptc-temp": "E: PTC, temporary",
+    "r07-itc-temp": "F: ITC, temporary",
+    "r08-ptc-delayed": "G: PTC at 4, 100%",
+    "r10-ptc-delayed-50": "H: PTC at 4, 50%",
+    "r11-ptc-delayed-inert": "I: PTC at 4, 0%",
+    "r09-itc-delayed": "J: ITC at 4",
+    "r12-ptc-temp-50inert": "K: PTC, temporary, 50%",
+    "r13-itc-temp-50inert": "L: ITC, temporary, 50%",
+    "r14-tech": "M: Tech exp at 10, 100%",
+    "r15-tech-50inert": "N: Tech exp at 10, 50%",
+    "r16-tech-roll": "P: Tech surprise at 10",
+    "r17-baseline-notss": "Q: Non-SS Baseline",
+    "r18-baseline-notss": "R: Non-SS Baseline, IE",
+    "r19-ptc-temp": "S: PTC, temporary, IE",
+    "r20-baseline-notss": "T: Non-SS Baseline, IE5",
+    "r21-baseline-notss": "U: Non-SS Baseline, IE1",
+    "r22-baseline-notss": "V: Non-SS Baseline, IE2",
+    "r23-baseline-notss": "W: Non-SS Baseline, IE3",
+    "r24-baseline-notss": "X: Non-SS Baseline, IE4",
+    "r25-baseline-notss": "Y: Non-SS Baseline, IE5",
+    "r26-baseline-notss": "Z: Non-SS Baseline, IE6"
+}
+
+Last year:
+20
+
+Show titles:
+0
+
+Roll:
+{
+    "r16": {
+        "base": "r01-baseline",
+        "year": 10
+    },
+    "r17": {
+        "base": "r01-baseline",
+        "year": 0,
+        "cap0": 10
+    },
+    "r18": {
+        "base": "r01-baseline",
+        "year": 0,
+        "cap0": 10
+    },
+    "r20": {
+        "base": "r18-baseline-notss",
+        "year": 5
+    },
+    "r21": {
+        "base": "r18-baseline-notss",
+        "year": 1
+    },
+    "r22": {
+        "base": "r21-baseline-notss",
+        "year": 2
+    },
+    "r23": {
+        "base": "r22-baseline-notss",
+        "year": 3
+    },
+    "r24": {
+        "base": "r23-baseline-notss",
+        "year": 4
+    },
+    "r25": {
+        "base": "r24-baseline-notss",
+        "year": 5
+    },
+    "r26": {
+        "base": "r25-baseline-notss",
+        "year": 6
+    }
+}
+
+Run files found:
+[
+    "r01-baseline.csv",
+    "r02-ptc-perm.csv",
+    "r03-itc-perm.csv",
+    "r04-ptc-decay.csv",
+    "r05-itc-decay.csv",
+    "r06-ptc-temp.csv",
+    "r07-itc-temp.csv",
+    "r08-ptc-delayed.csv",
+    "r09-itc-delayed.csv",
+    "r10-ptc-delayed-50.csv",
+    "r11-ptc-delayed-inert.csv",
+    "r12-ptc-temp-50inert.csv",
+    "r13-itc-temp-50inert.csv",
+    "r14-tech.csv",
+    "r15-tech-50inert.csv",
+    "r16-tech-roll.csv",
+    "r17-baseline-notss.csv",
+    "r18-baseline-notss.csv",
+    "r19-ptc-temp.csv",
+    "r20-baseline-notss.csv",
+    "r21-baseline-notss.csv",
+    "r22-baseline-notss.csv",
+    "r23-baseline-notss.csv",
+    "r24-baseline-notss.csv",
+    "r25-baseline-notss.csv",
+    "r26-baseline-notss.csv"
+]
+
+Group 1 Figure:
+Immediate Permanent Policies with Repeal Risk
+
+Summary:
+                       lam           inv         cap       
+period                 0      100    0      100  0      100
+legend                                                     
+A: SS Baseline       15.00  15.00   0.00   0.00  0.0   0.00
+B: Permanent         15.00  15.00  63.00  63.00  0.0  63.00
+C: PTC, repeal risk  17.34  15.02  46.82   0.36  0.0   0.57
+D: ITC, repeal risk  15.00  15.00  63.00   0.37  0.0   0.74
+
+Group 2 Figure:
+Delayed Permanent Policies with Varying Credibility
+
+Summary:
+                     lam           inv         cap       
+period               0      100    0      100  0      100
+legend                                                   
+G: PTC at 4, 100%  16.80  18.15  36.02  63.00  0.0  63.00
+H: PTC at 4, 50%   15.88  16.54  17.58  30.75  0.0  30.75
+I: PTC at 4, 0%    15.00  15.00   0.00   0.00  0.0   0.00
+J: ITC at 4        15.00  15.00   0.00  63.00  0.0  63.00
+
+Group 3 Figure:
+Temporary Policies with Continuation Risk
+
+Summary:
+                          lam           inv         cap       
+period                    0      100    0      100  0      100
+legend                                                        
+E: PTC, temporary       16.35  15.00  26.98   0.00  0.0   0.00
+F: ITC, temporary       15.00  15.00  63.00   0.00  0.0   0.00
+K: PTC, temporary, 50%  17.23  16.54  44.56  30.75  0.0  30.75
+L: ITC, temporary, 50%  15.00  15.00  63.00  31.50  0.0  31.50
+
+Group 4 Figure:
+Delayed Technology Decline
+
+Summary:
+                           lam           inv         cap       
+period                     0      100    0      100  0      100
+legend                                                         
+A: SS Baseline           15.00  15.00   0.00   0.00  0.0   0.00
+M: Tech exp at 10, 100%  14.30  12.15 -14.09 -57.00  0.0 -57.00
+N: Tech exp at 10, 50%   14.64  13.54  -7.23 -29.25  0.0 -29.25
+P: Tech surprise at 10   15.00  12.15   0.00 -57.00  0.0 -57.00
+
+Group 5 Figure:
+Alternative Baselines
+
+Summary:
+                     lam        inv        cap     
+period               0     100  0    100   0    100
+legend                                             
+A: SS Baseline      15.0  15.0  0.0  0.0   0.0  0.0
+Q: Non-SS Baseline  15.0  15.0  0.0  0.0 -60.0 -0.0
+
+Group 6 Figure:
+Temporary Policies with Continuation Risk
+
+Summary:
+                         lam          inv       cap     
+period                   0     100    0    100  0    100
+legend                                                  
+E: PTC, temporary      16.35  15.0  26.98  0.0  0.0  0.0
+S: PTC, temporary, IE  16.35  15.0  26.98  0.0  0.0  0.0

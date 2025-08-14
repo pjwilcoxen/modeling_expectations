@@ -1,0 +1,946 @@
+
+Endogenous price:
+True
+
+Input file:
+1-in/r01-baseline.xlsx
+
+Guess 4:
+1.5000000223517418 to 1.5
+
+Guess 104:
+1.5 to 1.5000000223517418
+
+Max absolute miss distance:
+0.0
+
+Success:
+True
+
+Wrote:
+3-out-en/r01-baseline.csv
+
+Year 10 capital:
+25.0
+
+
+Investment benchmark ITC and sub:
+{
+    "itc": 0.31499999999999995,
+    "sub": 0.1
+}
+
+Input file:
+1-in/r02-ptc-perm.xlsx
+
+Guess 4:
+1.5000000223517418 to 1.5
+
+Guess 104:
+1.5 to 1.5000000223517418
+
+Guess 105:
+1.452729304163271 to 1.3749283164418717
+
+Guess 106:
+1.4530379345525843 to 1.3976952101544964
+
+Guess 107:
+1.4530952701473028 to 1.3936741109767063
+
+Guess 108:
+1.4530940007725552 to 1.3936877164704322
+
+Guess 109:
+1.4530939500704274 to 1.3936438185559459
+
+Guess 110:
+1.4530939583718465 to 1.3936481630594928
+
+Guess 111:
+1.4530939592582968 to 1.393647378080999
+
+Guess 112:
+1.453093959237494 to 1.3936474996701678
+
+Guess 113:
+1.453093959226917 to 1.3936474785836213
+
+Guess 114:
+1.4530939592270713 to 1.393647482010579
+
+Max absolute miss distance:
+1.1991019288615234e-09
+
+Success:
+True
+
+Guess 115:
+1.4530939592270713 to 1.393647482010579
+
+Wrote:
+3-out-en/r02-ptc-perm.csv
+
+Input file:
+1-in/r03-itc-perm.xlsx
+
+Guess 4:
+1.5000000223517418 to 1.5
+
+Guess 104:
+1.5 to 1.5000000223517418
+
+Guess 105:
+1.5 to 1.3852507245431909
+
+Guess 106:
+1.5 to 1.3997415259715513
+
+Guess 107:
+1.5 to 1.3978926079510972
+
+Guess 108:
+1.5 to 1.3979105023873706
+
+Guess 109:
+1.5 to 1.397900923312066
+
+Guess 110:
+1.5 to 1.3979014146886553
+
+Guess 111:
+1.5 to 1.3979013283525579
+
+Guess 112:
+1.5 to 1.3979013349584397
+
+Max absolute miss distance:
+3.3005054245194287e-09
+
+Success:
+True
+
+Guess 113:
+1.5 to 1.3979013349584397
+
+Wrote:
+3-out-en/r03-itc-perm.csv
+
+Input file:
+1-in/r04-ptc-decay.xlsx
+
+Guess 4:
+1.5000000223517418 to 1.5
+
+Guess 104:
+1.5 to 1.5000000223517418
+
+Guess 105:
+1.4527293041632712 to 1.4992461295302864
+
+Guess 106:
+1.4530799186772245 to 1.4992465931027315
+
+Guess 107:
+1.4530943836306454 to 1.4992466367506154
+
+Guess 108:
+1.4530939650648595 to 1.4992466387529857
+
+Guess 109:
+1.4530939588786704 to 1.4992466387089847
+
+Guess 110:
+1.4530939592231784 to 1.4992466387063546
+
+Max absolute miss distance:
+1.6548515890946192e-09
+
+Success:
+True
+
+Guess 111:
+1.4530939592231784 to 1.4992466387063546
+
+Wrote:
+3-out-en/r04-ptc-decay.csv
+
+Input file:
+1-in/r05-itc-decay.xlsx
+
+Guess 4:
+1.5000000223517418 to 1.5
+
+Guess 104:
+1.5 to 1.5000000223517418
+
+Guess 105:
+1.5 to 1.4991533586006116
+
+Guess 106:
+1.5 to 1.4991536876826796
+
+Guess 107:
+1.5 to 1.4991537428153254
+
+Guess 108:
+1.5 to 1.4991537462645503
+
+Guess 109:
+1.5 to 1.499153746184094
+
+Guess 110:
+1.5 to 1.4991537461791435
+
+Max absolute miss distance:
+1.6199968033703271e-09
+
+Success:
+True
+
+Guess 111:
+1.5 to 1.4991537461791435
+
+Wrote:
+3-out-en/r05-itc-decay.csv
+
+Input file:
+1-in/r06-ptc-temp.xlsx
+
+Guess 4:
+1.5000000223517418 to 1.5
+
+Guess 104:
+1.5 to 1.5000000223517418
+
+Guess 105:
+1.452729304163271 to 1.499999999214397
+
+Guess 106:
+1.4530958866260875 to 1.4999999999760014
+
+Guess 107:
+1.4530939922225923 to 1.4999999999786273
+
+Guess 108:
+1.4530939588519094 to 1.499999999978589
+
+Max absolute miss distance:
+1.2537977323034966e-09
+
+Success:
+True
+
+Guess 109:
+1.4530939588519094 to 1.499999999978589
+
+Wrote:
+3-out-en/r06-ptc-temp.csv
+
+Input file:
+1-in/r07-itc-temp.xlsx
+
+Guess 4:
+1.5000000223517418 to 1.5
+
+Guess 104:
+1.5 to 1.5000000223517418
+
+Guess 105:
+1.5 to 1.4999999999753093
+
+Guess 106:
+1.5 to 1.499999999867917
+
+Guess 107:
+1.5 to 1.4999999998661482
+
+Guess 108:
+1.5 to 1.499999999866115
+
+Guess 109:
+1.5 to 1.499999999866116
+
+Max absolute miss distance:
+5.830536053963442e-11
+
+Success:
+True
+
+Guess 110:
+1.5 to 1.499999999866116
+
+Wrote:
+3-out-en/r07-itc-temp.csv
+
+Input file:
+1-in/r08-ptc-delayed.xlsx
+
+Guess 4:
+1.5000000223517418 to 1.5
+
+Guess 104:
+1.5 to 1.5000000223517418
+
+Guess 105:
+1.5 to 1.3749283234685628
+
+Guess 106:
+1.5 to 1.397669502392427
+
+Guess 107:
+1.5 to 1.3936725204343625
+
+Guess 108:
+1.5 to 1.3936882929204606
+
+Guess 109:
+1.5 to 1.3936437925374008
+
+Guess 110:
+1.5 to 1.3936481766494937
+
+Guess 111:
+1.5 to 1.3936473778321998
+
+Guess 112:
+1.5 to 1.3936474999706376
+
+Guess 113:
+1.5 to 1.3936474786233635
+
+Guess 114:
+1.5 to 1.393647482043865
+
+Max absolute miss distance:
+1.1907164143565296e-09
+
+Success:
+True
+
+Guess 115:
+1.5 to 1.393647482043865
+
+Wrote:
+3-out-en/r08-ptc-delayed.csv
+
+Input file:
+1-in/r09-itc-delayed.xlsx
+
+Guess 4:
+1.5000000223517418 to 1.5
+
+Guess 104:
+1.5 to 1.5000000223517418
+
+Guess 105:
+1.5 to 1.3852506883855638
+
+Guess 106:
+1.5 to 1.3997357967262145
+
+Guess 107:
+1.5 to 1.3978911509865335
+
+Guess 108:
+1.5 to 1.3979109295923502
+
+Guess 109:
+1.5 to 1.3979009056800553
+
+Guess 110:
+1.5 to 1.3979014210005187
+
+Guess 111:
+1.5 to 1.3979013294398497
+
+Guess 112:
+1.5 to 1.3979013362296944
+
+Max absolute miss distance:
+3.382348845448746e-09
+
+Success:
+True
+
+Guess 113:
+1.5 to 1.3979013362296944
+
+Wrote:
+3-out-en/r09-itc-delayed.csv
+
+Input file:
+1-in/r10-ptc-delayed-50.xlsx
+
+Guess 4:
+1.5000000223517418 to 1.5
+
+Guess 104:
+1.5 to 1.5000000223517418
+
+Guess 105:
+1.5 to 1.438698925376085
+
+Guess 106:
+1.5 to 1.4450292806132563
+
+Guess 107:
+1.5 to 1.4443651900328205
+
+Guess 108:
+1.5 to 1.444371422119282
+
+Guess 109:
+1.5 to 1.4443692876304564
+
+Guess 110:
+1.5 to 1.4443693637447577
+
+Guess 111:
+1.5 to 1.4443693509255204
+
+Guess 112:
+1.5 to 1.4443693516309242
+
+Max absolute miss distance:
+4.618065929662407e-10
+
+Success:
+True
+
+Guess 113:
+1.5 to 1.4443693516309242
+
+Wrote:
+3-out-en/r10-ptc-delayed-50.csv
+
+Input file:
+1-in/r11-ptc-delayed-inert.xlsx
+
+Guess 4:
+1.5000000223517418 to 1.5
+
+Guess 104:
+1.5 to 1.5000000223517418
+
+Max absolute miss distance:
+0.0
+
+Success:
+True
+
+Wrote:
+3-out-en/r11-ptc-delayed-inert.csv
+
+Input file:
+1-in/r12-ptc-temp-50inert.xlsx
+
+Guess 4:
+1.5000000223517418 to 1.5
+
+Guess 104:
+1.5 to 1.5000000223517418
+
+Guess 105:
+1.452729304163271 to 1.4386989655174018
+
+Guess 106:
+1.453065067693862 to 1.445043160142882
+
+Guess 107:
+1.453094810280552 to 1.4443652313874142
+
+Guess 108:
+1.4530939595623982 to 1.4443713636274904
+
+Guess 109:
+1.4530939573952084 to 1.4443692916788355
+
+Guess 110:
+1.4530939591836036 to 1.444369363209427
+
+Guess 111:
+1.4530939592287975 to 1.444369350913971
+
+Guess 112:
+1.4530939592274086 to 1.4443693516004457
+
+Max absolute miss distance:
+4.72329064749033e-10
+
+Success:
+True
+
+Guess 113:
+1.4530939592274086 to 1.4443693516004457
+
+Wrote:
+3-out-en/r12-ptc-temp-50inert.csv
+
+Input file:
+1-in/r13-itc-temp-50inert.xlsx
+
+Guess 4:
+1.5000000223517418 to 1.5
+
+Guess 104:
+1.5 to 1.5000000223517418
+
+Guess 105:
+1.5 to 1.4439674187028944
+
+Guess 106:
+1.5 to 1.448560241633917
+
+Guess 107:
+1.5 to 1.4481667297727883
+
+Guess 108:
+1.5 to 1.4481702053844578
+
+Guess 109:
+1.5 to 1.4481694667494243
+
+Guess 110:
+1.5 to 1.44816948483046
+
+Guess 111:
+1.5 to 1.448169482026679
+
+Max absolute miss distance:
+5.1648418875061e-10
+
+Success:
+True
+
+Guess 112:
+1.5 to 1.448169482026679
+
+Wrote:
+3-out-en/r13-itc-temp-50inert.csv
+
+Input file:
+1-in/r14-tech.xlsx
+
+Guess 4:
+1.5000000223517418 to 1.5
+
+Guess 104:
+1.5 to 1.5000000223517418
+
+Guess 105:
+1.5 to 1.5911905390639958
+
+Guess 106:
+1.5 to 1.626739854879411
+
+Guess 107:
+1.5 to 1.6441024389641137
+
+Guess 108:
+1.5 to 1.6468415600521167
+
+Guess 109:
+1.5 to 1.6473008007475551
+
+Guess 110:
+1.5 to 1.6475050152441175
+
+Guess 111:
+1.5 to 1.6475473799118967
+
+Guess 112:
+1.5 to 1.6475628434559728
+
+Guess 113:
+1.5 to 1.6475698298829864
+
+Guess 114:
+1.5 to 1.6475712811400447
+
+Guess 115:
+1.5 to 1.6475723035098893
+
+Guess 116:
+1.5 to 1.64757243176072
+
+Guess 117:
+1.5 to 1.6475725307022004
+
+Guess 118:
+1.5 to 1.6475725491514057
+
+Guess 119:
+1.5 to 1.6475725563024182
+
+Guess 120:
+1.5 to 1.6475725607168503
+
+Max absolute miss distance:
+3.653273683568159e-09
+
+Success:
+True
+
+Guess 121:
+1.5 to 1.6475725607168503
+
+Wrote:
+3-out-en/r14-tech.csv
+
+Input file:
+1-in/r15-tech-50inert.xlsx
+
+Guess 4:
+1.5000000223517418 to 1.5
+
+Guess 104:
+1.5 to 1.5000000223517418
+
+Guess 105:
+1.5 to 1.5587970593494744
+
+Guess 106:
+1.5 to 1.5682247968225231
+
+Guess 107:
+1.5 to 1.5699556378530801
+
+Guess 108:
+1.5 to 1.5700308438497421
+
+Guess 109:
+1.5 to 1.57004088932382
+
+Guess 110:
+1.5 to 1.570042221677679
+
+Guess 111:
+1.5 to 1.5700423569058581
+
+Guess 112:
+1.5 to 1.5700423872644147
+
+Guess 113:
+1.5 to 1.5700423898270877
+
+Max absolute miss distance:
+4.281460519450775e-09
+
+Success:
+True
+
+Guess 114:
+1.5 to 1.5700423898270877
+
+Wrote:
+3-out-en/r15-tech-50inert.csv
+
+Input file:
+1-in/r16-tech-roll.xlsx
+
+Guess 4:
+1.5000000223517418 to 1.5
+
+Guess 104:
+1.5 to 1.5000000223517418
+
+Guess 105:
+1.607142858055173 to 1.5911905427598303
+
+Guess 106:
+1.6097705456357423 to 1.6265028574374576
+
+Guess 107:
+1.609208220218024 to 1.6441065846953367
+
+Guess 108:
+1.6091463175292395 to 1.6468787671698641
+
+Guess 109:
+1.609148402330317 to 1.6473163026710578
+
+Guess 110:
+1.6091491290826354 to 1.6475084864442133
+
+Guess 111:
+1.6091490124953556 to 1.647549398342613
+
+Guess 112:
+1.6091489732654287 to 1.6475633802732552
+
+Guess 113:
+1.6091489717556975 to 1.6475700733257832
+
+Guess 114:
+1.6091489739608833 to 1.6475713893044788
+
+Guess 115:
+1.6091489745394016 to 1.6475723252831862
+
+Guess 116:
+1.6091489743844867 to 1.6475724459182863
+
+Guess 117:
+1.6091489743300096 to 1.6475725314765586
+
+Guess 118:
+1.6091489743390774 to 1.6475725505697565
+
+Guess 119:
+1.6091489743427303 to 1.6475725563745747
+
+Guess 120:
+1.609148974343127 to 1.6475725608756382
+
+Max absolute miss distance:
+3.6787319857012335e-09
+
+Success:
+True
+
+Guess 121:
+1.609148974343127 to 1.6475725608756382
+
+Wrote:
+3-out-en/r16-tech-roll.csv
+
+Input file:
+1-in/r17-baseline-notss.xlsx
+
+Guess 4:
+1.5000000223517418 to 1.5
+
+Guess 104:
+1.5 to 1.5000000223517418
+
+Guess 105:
+1.9868329833004377 to 1.4999999963431192
+
+Guess 106:
+2.0315987935037687 to 1.5000000001311402
+
+Guess 107:
+2.035713553044649 to 1.5000000001615748
+
+Guess 108:
+2.035800928480566 to 1.5000000001625313
+
+Guess 109:
+2.0358127299190767 to 1.5000000001626035
+
+Guess 110:
+2.035813178524033 to 1.5000000001626017
+
+Guess 111:
+2.0358132108706593 to 1.5000000001626013
+
+Max absolute miss distance:
+2.925057085434446e-09
+
+Success:
+True
+
+Guess 112:
+2.0358132108706593 to 1.5000000001626013
+
+Wrote:
+3-out-en/r17-baseline-notss.csv
+
+Year 10 capital:
+23.461054623569254
+
+
+Investment benchmark ITC and sub:
+{
+    "itc": 0.5802349601377704,
+    "sub": 0.1
+}
+
+Input file:
+1-in/r18-baseline-notss.xlsx
+
+Max absolute miss distance:
+4.884981308350689e-14
+
+Success:
+True
+
+Wrote:
+3-out-en/r18-baseline-notss.csv
+
+Year 10 capital:
+60.9015492465668
+
+
+Investment benchmark ITC and sub:
+{
+    "itc": 0.5802349610358423,
+    "sub": 0.1
+}
+
+Input file:
+1-in/r19-ptc-temp.xlsx
+
+Max absolute miss distance:
+0.0
+
+Success:
+True
+
+Wrote:
+3-out-en/r19-ptc-temp.csv
+
+Input file:
+1-in/r20-baseline-notss.xlsx
+
+Max absolute miss distance:
+0.0
+
+Success:
+True
+
+Wrote:
+3-out-en/r20-baseline-notss.csv
+
+Year 10 capital:
+26.058981468071785
+
+
+Investment benchmark ITC and sub:
+{
+    "itc": 0.2228840180315711,
+    "sub": 0.1
+}
+
+Input file:
+1-in/r21-baseline-notss.xlsx
+
+Max absolute miss distance:
+0.0
+
+Success:
+True
+
+Wrote:
+3-out-en/r21-baseline-notss.csv
+
+Year 10 capital:
+33.85998532067329
+
+
+Investment benchmark ITC and sub:
+{
+    "itc": 0.39483116210148206,
+    "sub": 0.1
+}
+
+Input file:
+1-in/r22-baseline-notss.xlsx
+
+Max absolute miss distance:
+6.372680161348399e-14
+
+Success:
+True
+
+Wrote:
+3-out-en/r22-baseline-notss.csv
+
+Year 10 capital:
+29.18110384768389
+
+
+Investment benchmark ITC and sub:
+{
+    "itc": 0.36032691136895556,
+    "sub": 0.1
+}
+
+Input file:
+1-in/r23-baseline-notss.xlsx
+
+Max absolute miss distance:
+1.7763568394002505e-15
+
+Success:
+True
+
+Wrote:
+3-out-en/r23-baseline-notss.csv
+
+Year 10 capital:
+27.07020322915892
+
+
+Investment benchmark ITC and sub:
+{
+    "itc": 0.3433329878177922,
+    "sub": 0.1
+}
+
+Input file:
+1-in/r24-baseline-notss.xlsx
+
+Max absolute miss distance:
+2.220446049250313e-16
+
+Success:
+True
+
+Wrote:
+3-out-en/r24-baseline-notss.csv
+
+Year 10 capital:
+25.974519033534555
+
+
+Investment benchmark ITC and sub:
+{
+    "itc": 0.33351165555948037,
+    "sub": 0.1
+}
+
+Input file:
+1-in/r25-baseline-notss.xlsx
+
+Max absolute miss distance:
+2.220446049250313e-16
+
+Success:
+True
+
+Wrote:
+3-out-en/r25-baseline-notss.csv
+
+Year 10 capital:
+25.378223168394975
+
+
+Investment benchmark ITC and sub:
+{
+    "itc": 0.32739594987808984,
+    "sub": 0.1
+}
+
+Input file:
+1-in/r26-baseline-notss.xlsx
+
+Max absolute miss distance:
+0.0
+
+Success:
+True
+
+Wrote:
+3-out-en/r26-baseline-notss.csv
+
+Year 10 capital:
+25.053134314740177
+
+
+Investment benchmark ITC and sub:
+{
+    "itc": 0.3234256876351408,
+    "sub": 0.1
+}

@@ -1,0 +1,106 @@
+#  Configuration file for model.py
+#  August 2025 PJW
+#
+
+#
+#  Directories for ex and en results
+#
+
+in = "1-in"           # where to find simulation input files
+out_ex = "2-out-ex"   # where to put results with out endogenous prices
+out_en = "3-out-en"   # where to put results with endogenous prices
+out_cm = "4-out-cmp"  # where to put comparison graphs
+#
+#  Economic parameters and variables
+#
+
+r = 0.05         # interest rate
+delta = 0.10     # depreciation rate
+p = 1.5          # default output price
+w = 1            # wage
+pk = 10          # price of capital
+cap0 = 25        # default initial capital stock
+elast = -2       # demand elasticity
+scale = 168.75   # demand scale parameter
+
+#
+#  Graphing parameters
+#
+
+last_year = 20    # last year of graphs
+show_titles = 0   # include overall figure titles
+
+#
+#  Run control information
+#
+
+endog_p = true      #  use endogenous prices
+base_only = false   #  run baseline only
+force = false       #  rerun even if output exists
+
+#
+#  Runs using inertial expectations when price is endogenous
+#
+
+inertial = [ "r18", "r19", "r20",
+             "r21", "r22", "r23", "r24", "r25", "r26" ]
+
+#
+#  Text for legends
+#
+#     Key is the filename without the extension
+#     Value is the code letter and name for the legend
+#
+
+[legend]
+
+r01-baseline          = "A: SS Baseline"
+r02-ptc-perm          = "omit"
+r03-itc-perm          = "B: Permanent"
+r04-ptc-decay         = "C: PTC, repeal risk"
+r05-itc-decay         = "D: ITC, repeal risk"
+r06-ptc-temp          = "E: PTC, temporary"
+r07-itc-temp          = "F: ITC, temporary"
+r08-ptc-delayed       = "G: PTC at 4, 100%"
+r10-ptc-delayed-50    = "H: PTC at 4, 50%"
+r11-ptc-delayed-inert = "I: PTC at 4, 0%"
+r09-itc-delayed       = "J: ITC at 4"
+r12-ptc-temp-50inert  = "K: PTC, temporary, 50%"
+r13-itc-temp-50inert  = "L: ITC, temporary, 50%"
+r14-tech              = "M: Tech exp at 10, 100%"
+r15-tech-50inert      = "N: Tech exp at 10, 50%"
+r16-tech-roll         = "P: Tech surprise at 10"
+r17-baseline-notss    = "Q: Non-SS Baseline"
+r18-baseline-notss    = "R: Non-SS Baseline, IE"
+r19-ptc-temp          = "S: PTC, temporary, IE"
+r20-baseline-notss    = "T: Non-SS Baseline, IE5"
+r21-baseline-notss    = "U: Non-SS Baseline, IE1"
+r22-baseline-notss    = "V: Non-SS Baseline, IE2"
+r23-baseline-notss    = "W: Non-SS Baseline, IE3"
+r24-baseline-notss    = "X: Non-SS Baseline, IE4"
+r25-baseline-notss    = "Y: Non-SS Baseline, IE5"
+r26-baseline-notss    = "Z: Non-SS Baseline, IE6"
+
+#
+#  Controls for rolling simulations
+#
+#     base = base simulation prior to change in expectations
+#     year = period the revision occurs
+#     cap0 = if given, use this as the capital stock in 'year' (for non SS runs)
+#
+
+[roll]
+
+r16 = { base = "r01-baseline", year = 10 }
+
+r17 = { base = "r01-baseline", year = 0, cap0 = 10 }  # Q: non-SS baseline, RE
+r18 = { base = "r01-baseline", year = 0, cap0 = 10 }  # R: non-SS baseline, IE
+
+r20 = { base = "r18-baseline-notss", year =  5 }
+
+r21 = { base = "r18-baseline-notss", year =  1 }
+r22 = { base = "r21-baseline-notss", year =  2 }
+r23 = { base = "r22-baseline-notss", year =  3 }
+r24 = { base = "r23-baseline-notss", year =  4 }
+r25 = { base = "r24-baseline-notss", year =  5 }
+r26 = { base = "r25-baseline-notss", year =  6 }
